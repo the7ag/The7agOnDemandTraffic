@@ -3,13 +3,13 @@ A simple traffic lights system using Atmega32 and 6 led 3 for the cars traffic l
 # System Design
 This system runs on two mode the normal mode and the pedestrian
 mode and it switches between them with the push button  
-\1-Normal Mode  
+1-Normal Mode  
 In this mode the cars traffic light starts on green then the yellow light
 starts blinking after 5 seconds and then the red lights turn on for 5
 seconds and then the yellow light starts blinking for 5 seconds and it
 turns green again
 And the pedestrians led is on red light  
-\2-Pedestrian mode  
+2-Pedestrian mode  
 This mode happens when the button is pushed it have some conditions
 that it must follows
 If the button is pressed while the cars traffic light is on Red then the
